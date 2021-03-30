@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Articles Posts</title>
+</head>
+<body >
+    <header>
+            <ul>
+                <li>Contact us</li>
+                <li>About us</li>
+                <li>Home</li>
+                <li>ASAC</li>
+            </ul>
+    </header>
+    <main>
+        <form id="articleForm">
+            <fieldset id=authorField>
+            <label for="author"> Author name:</label>
+            <input type="text" id="author" placeholder="author">
+            </fieldset>
+            <fieldset id=titleField>
+            <label for="title">Article title:</label>
+            <input type="text" id="title" placeholder="article title">
+            </fieldset>
+            <label for="subject" id="subject">Subject:</label>
+            <select name="topics" id="list">
+                <option value="coding">Coding</option>
+                <option value="AI">AI</option>
+                <option value="3D printing">3D printing</option>
+                <option value="Cyber security">Cyber security</option>
+            </select>
+            <br>
+            <label for="userContent">Content:</label>
+            <br>
+            <textarea name="content" id="userContent" cols="50" rows="15" placeholder="enter the article content here"></textarea>
+            <input type="submit">
+            <input:day></input:day>
+            <input type="month" name="" id="">
+            <input:year></input:year>
+        </form>
+    </main>
+    <footer>
+        <p> &copy; All rights recieved ASAC 2021</p>
+    </footer>
+    
+</body>
+</html>
